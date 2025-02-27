@@ -64,11 +64,11 @@ thinking_styles:
 ans_delimiter_instruction: ""
 
 meta_critique_template: |
-  I'm trying to write a zero-shot instruction that will help the most capable and suitable agent to solve the task.
-  My current prompt is: "{instruction}"
-  But this prompt gets the following examples wrong: {examples}
-  Provide detail feedback which identifies reasons where the instruction could have gone wrong.
-  Wrap each reason with <START> and <END>
+  Próbuję napisać instrukcję zero-shot, która pomoże najbardziej kompetentnemu i odpowiedniemu agentowi w rozwiązaniu zadania.
+  Moja obecna instrukcja brzmi: "{instruction}"
+  Jednak ta instrukcja błędnie rozwiązuje następujące przykłady: {examples}
+  Podaj szczegółową informację zwrotną, która zidentyfikuje powody, dla których ta instrukcja mogła się nie sprawdzić.
+  Otocz każdy powód znacznikami <START> i <END>
   
 
 meta_positive_critique_template: |
