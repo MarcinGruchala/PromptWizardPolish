@@ -71,14 +71,12 @@ meta_critique_template: |
   Otocz każdy powód znacznikami <START> i <END>
   
 
-meta_positive_critique_template: |
-  I'm trying to write a prompt for zero-shot instruction task that will help the most capable and suitable agent to solve the task.
-  My current prompt is:
-  [CURRENT PROMPT] "{instruction}"
-  Now this prompt got the following examples correct:
-  [CORRECT EXAMPLES] {examples}
-  Since you cant use these examples, analyse and understand characteristics/complexity and diversity of these examples and their reasoning chain and
-  accordingly provide suggestions to further improve the prompt and make it better as a zero shot instruction task.
+meta_positive_critique_template: | 
+  Próbuję napisać polecenie (prompt) do zadania zero-shot instruction, które pomoże najbardziej kompetentnemu i odpowiedniemu agentowi w rozwiązaniu zadania.
+  Moje aktualne polecenie brzmi: [AKTUALNY PROMPT] "{instruction}"
+  To polecenie poprawnie poradziło sobie z następującymi przykładami: [POPRAWNE PRZYKŁADY] {examples}
+  Ponieważ nie możesz skorzystać z tych przykładów, przeanalizuj i zrozum ich cechy, poziom złożoności, różnorodność oraz ciąg rozumowania.
+  Na tej podstawie zaproponuj sugestie, jak jeszcze ulepszyć to polecenie, aby stało się lepsze dla zadania w stylu zero-shot instruction.
     
 
 critique_refine_template: |
