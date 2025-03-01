@@ -20,7 +20,7 @@ expert_profile: Jesteś pomocnym asystentem stworzonym przez OpenAI, który potr
 
 thinking_styles:
   - "Jak mógłbym opracować eksperyment, który pomoże rozwiązać ten problem?"
-  - "Sporządź listę pomysłów na rozwiązanie tego problemu i zastosuj je jeden po drugim, aby sprawdzić, czy można osiągnąć jakiś postęp".
+  - "Sporządź listę pomysłów na rozwiązanie tego problemu i zastosuj je jeden po drugim, aby sprawdzić, czy można osiągnąć jakiś postęp."
   - "Jak mogę zmierzyć postęp w rozwiązywaniu tego problemu?"
   - "Jak mogę uprościć problem, aby łatwiej było go rozwiązać?"
   - "Jakie są główne założenia leżące u podstaw tego problemu?"
